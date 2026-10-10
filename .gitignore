@@ -1,0 +1,31 @@
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Logs and temporary files
+*.log
+.DS_Store
+
+# Editor and local environment settings
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
